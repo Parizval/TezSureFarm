@@ -23,12 +23,6 @@
           </template>
           Market Overview
         </vs-sidebar-item>
-        <vs-sidebar-item id="Music">
-          <template #icon>
-            <i class='bx bxs-music'></i>
-          </template>
-          Music
-        </vs-sidebar-item>
         <vs-sidebar-group>
           <template #header>
             <vs-sidebar-item arrow>
@@ -58,47 +52,6 @@
             Facebook
           </vs-sidebar-item>
         </vs-sidebar-group>
-        <vs-sidebar-group>
-          <template #header>
-            <vs-sidebar-item arrow>
-              <template #icon>
-                <i class='bx bx-code-alt' ></i>
-              </template>
-              Coding
-            </vs-sidebar-item>
-          </template>
-
-          <vs-sidebar-item id="github">
-            <template #icon>
-              <i class='bx bxl-github' ></i>
-            </template>
-            Github
-          </vs-sidebar-item>
-          <vs-sidebar-item id="codepen">
-            <template #icon>
-              <i class='bx bxl-codepen'></i>
-            </template>
-            Codepen
-          </vs-sidebar-item>
-          <vs-sidebar-item id="discord">
-            <template #icon>
-              <i class='bx bxl-discord'></i>
-            </template>
-            Discord
-          </vs-sidebar-item>
-          <vs-sidebar-item id="Javascript">
-            <template #icon>
-              <i class='bx bxl-javascript' ></i>
-            </template>
-            Javascript
-          </vs-sidebar-item>
-          <vs-sidebar-item id="git">
-            <template #icon>
-              <i class='bx bxl-git' ></i>
-            </template>
-            Git
-          </vs-sidebar-item>
-        </vs-sidebar-group>
         <vs-sidebar-item id="donate">
           <template #icon>
             <i class='bx bxs-donate-heart' ></i>
@@ -117,12 +70,7 @@
           </template>
           Shopping
         </vs-sidebar-item>
-        <vs-sidebar-item id="chat">
-          <template #icon>
-            <i class='bx bx-chat' ></i>
-          </template>
-          Chat
-        </vs-sidebar-item>
+        
       </vs-sidebar>
     </div>
   </template>
